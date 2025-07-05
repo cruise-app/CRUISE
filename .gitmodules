@@ -1,0 +1,9 @@
+[submodule "cruise-ai"]
+	path = cruise-ai
+	url = https://github.com/cruise-app/cruise-ai
+[submodule "cruise-backend"]
+	path = cruise-backend
+	url = https://github.com/cruise-app/cruise-backend
+[submodule "cruise-mobile"]
+	path = cruise-mobile
+	url = https://github.com/cruise-app/cruise-mobile
