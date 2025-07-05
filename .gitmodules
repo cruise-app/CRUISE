@@ -7,3 +7,6 @@
 [submodule "cruise-mobile"]
 	path = cruise-mobile
 	url = https://github.com/cruise-app/cruise-mobile
+[submodule "cruise-admin-portal"]
+	path = cruise-admin-portal
+	url = https://github.com/cruise-app/cruise-admin-portal
