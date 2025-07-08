@@ -1,6 +1,6 @@
 # CRUISE
 
-**CRUISE** is a mobile application designed to offer smart transportation solutions. It offers **carpooling, car rentals, AI-powered safety features, chatbot customer support, SIEM solutions**, and **admin dashboards** for full system control and monitoring. The platform is designed with a focus on safety, simplicity, and eco-friendliness, enabling users to easily find rides or rent cars while reducing traffic and emissions.
+A mobile application designed to offer smart transportation solutions. It offers **carpooling, car rentals, AI-powered safety features, chatbot customer support, SIEM solutions**, and **admin dashboards** for full system control and monitoring. The platform is designed with a focus on safety, simplicity, and eco-friendliness, enabling users to easily find rides or rent cars while reducing traffic and emissions.
 
 ---
 
@@ -13,7 +13,7 @@ Click the image to watch our demo on YouTube:
 ## Features
 
 ### 1. **Carpooling**
-- Share rides with people going to the same destination.
+- Create or join a ride with people going to the same destination.
 - Matching based on **location, time, and route**.
 
 ### 2. **AI Safety Features**
@@ -25,26 +25,27 @@ Click the image to watch our demo on YouTube:
 - Detects **route deviations** to flag suspicious behavior.
 
 ### 3. **Car Rental**
-- Rent cars directly from other users.
-- Filter listings by **price, type, and location**.
-- Car owners can set rental terms and conditions.
+- Rent cars directly from other users by **area, date, and time**.
+- View details of the car offered.
 
 ### 4. **Blog Section**
 - Add posts, likes, and comments on images and thoughts about the trip.
+- View the following, followers, and previous posts.
 
 ### 5. **Chatbot Assistant**
 - Helps users with **booking**, **ride search**, **reporting issues**, and **alerting emergency contacts**.
 
 ### 6. **Admin Pages**
-- Full admin control panel for managing the platform.
+- Full admin control panel for managing the application and test reports of the backend.
 - Add, edit, or delete entries from the database.
 - Includes two dashboards:
   - **Business Dashboard**: [Access it here](https://charts.mongodb.com/charts-project-0-kbcxtjq/public/dashboards/685ea23a-2404-4915-8da5-d6ec8beb41f8).
   - **Developer Dashboard**: [Access it here](https://charts.mongodb.com/charts-project-0-whlqmxl/public/dashboards/67677d9e-2b97-45ce-8540-ae585dfc1477).
 
 ### 7. **SIEM Integration**
-- Connected with a **Security Information and Event Management (SIEM)** system.
-- Enables **real-time threat detection** and **incident investigation**.
+- Connected with a **Security Information and Event Management (SIEM)** system to detect suspicious login attempts.
+- Send alerts via Telegram and block the IP address of the attacker
+- Enables **incident investigation** by Wazuh dashboard.
 
 ---
 
@@ -59,7 +60,6 @@ This repository includes submodules, including a specific part of the applicatio
 ├── /cruise-backend        # Node JS backend services
 ├── /cruise-ai             # AI models (speech recognition, Hate classification, Chatbot)
 ├── /cruise-admin          # Admin pages and control dashboard
-├── /siem           # SIEM integration logic and monitoring tools
 
 ````
 
