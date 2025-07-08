@@ -16,7 +16,7 @@ Click the image to watch our demo on YouTube:
 - Share rides with people going to the same destination.
 - Matching based on **location, time, and route**.
 
-### 2. **AI Safety System**
+### 2. **AI Safety Features**
 - **Record partitions** of in-ride conversations.
 - **Speech-to-text transcription** of the conversations.
 - Detects **hate speech** or offensive language.
