@@ -2,8 +2,6 @@
 
 A mobile application designed to offer smart transportation solutions. It offers **carpooling, car rentals, AI-powered safety features, chatbot customer support, SIEM solutions**, and **admin dashboards** for full system control and monitoring. The platform is designed with a focus on safety, simplicity, and eco-friendliness, enabling users to easily find rides or rent cars while reducing traffic and emissions.
 
----
-
 ## Demo Video
 
 Click the image to watch our demo on YouTube:
@@ -47,8 +45,6 @@ Click the image to watch our demo on YouTube:
 - Send alerts via Telegram and block the IP address of the attacker
 - Enables **incident investigation** by Wazuh dashboard.
 
----
-
 ## Repository Structure
 
 This repository includes submodules, including a specific part of the application:
@@ -56,14 +52,12 @@ This repository includes submodules, including a specific part of the applicatio
 ```
 
 /CRUISE
-├── /cruise-mobile         # Flutter mobile application
+├── /cruise-mobile         # Flutter mobile application code
 ├── /cruise-backend        # Node JS backend services
-├── /cruise-ai             # AI models (speech recognition, Hate classification, Chatbot)
-├── /cruise-admin          # Admin pages and control dashboard
+├── /cruise-ai             # AI modules (Speech recognition, Hate classification, Chatbot)
+├── /cruise-admin          # User management, test reports, and dashboard
 
 ````
-
----
 
 ## Meet the Team
 
